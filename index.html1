@@ -1,4 +1,41 @@
 <!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EXACT TIP - 100% Accurate - Ghana #1</title><meta name="theme-color" content="#0f172a">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:-apple-system,BlinkMacSystemFont,sans-serif}
+body{background:#020617;color:#e2e8f0;min-height:100vh}
+.header{background:linear-gradient(135deg,#0f172a,#1e293b);padding:14px 14px 0;position:sticky;top:0;z-index:30;border-bottom:1px solid #1e293b}
+.top{display:flex;justify-content:space-between;align-items:center}
+.logo{font-weight:900;font-size:21px;color:#fff}.logo span{color:#22c55e}
+.live{font-size:10px;background:#22c55e;color:#000;padding:4px 10px;border-radius:20px;font-weight:800}
+.trust-bar{display:flex;gap:8px;margin:12px 0;overflow-x:auto}
+.trust{flex:0 0 auto;background:#1e293b;border:1px solid #334155;padding:6px 10px;border-radius:20px;font-size:11px}
+.trust b{color:#22c55e}
+.nav-tabs{display:flex;gap:0;background:#020617;border-radius:12px 12px 0 0;overflow:hidden;margin-top:10px}
+.nav-tab{flex:1;padding:12px 6px;text-align:center;font-size:12px;font-weight:800;cursor:pointer;background:#1e293b;color:#94a3b8;border:none}
+.nav-tab.active{background:#22c55e;color:#000}
+.date-nav{display:flex;gap:6px;margin:10px 0;overflow-x:auto}
+.d-btn{padding:7px 14px;border-radius:20px;font-size:11px;font-weight:700;border:1px solid #334155;background:#1e293b;color:#94a3b8;cursor:pointer;white-space:nowrap}
+.d-btn.active{background:#38bdf8;color:#000;border-color:#38bdf8}
+.stats-hero{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:6px;margin:12px 0}
+.s-card{background:#1e293b;border-radius:10px;padding:8px;text-align:center;border:1px solid #334155}
+.s-card b{font-size:15px;display:block;color:#22c55e}
+.s-card span{font-size:9px;color:#94a3b8}
+.container{padding:10px 12px 100px;max-width:600px;margin:0 auto}
+.section-title{display:flex;justify-content:space-between;align-items:center;margin:14px 0 8px}
+.section-title h3{font-size:13px}
+.card{background:#1e293b;border-radius:14px;padding:12px;margin-bottom:10px;border:1px solid #334155;position:relative}
+.card.won{border-left:4px solid #22c55e}.card.lost{border-left:4px solid #ef4444}.card.pending{border-left:4px solid #fbbf24}.card.fixed{border:2px solid #fbbf24;background:linear-gradient(135deg,#1e293b,#2a2300)}
+.badge{position:absolute;top:8px;right:8px;font-size:9px;font-weight:800;padding:3px 7px;border-radius:6px}
+.badge.won{background:#22c55e;color:#000}.badge.lost{background:#ef4444;color:#fff}.badge.pending{background:#fbbf24;color:#000}.badge.premium{background:#a855f7;color:#fff}
+.league{font-size:10px;color:#94a3b8;text-transform:uppercase;margin-bottom:4px;padding-right:70px}
+.match{font-size:14px;font-weight:700}.score{font-size:11px;color:#94a3b8;margin:4px 0}
+.tip-row{display:flex;gap:6px;flex-wrap:wrap;margin:6px 0}.tip{background:#0f172a;border:1px solid #334155;padding:4px 8px;border-radius:7px;font-size:11px}.tip b{color:#22c55e}.odd{color:#fbbf24;font-weight:700}
+.locked{filter:blur(6px);user-select:none;pointer-events:none}
+.pay-overlay{position:absolute;inset:0;background:rgba(2,6,23,0.92);display:flex;flex-direction:column;justify-content:center;align-items:center;border-radius:14px;padding:16px;text-align:center}
+.pay-overlay h4{color:#fbbf24;font-size:14px;margin-bottom:6px}.pay-overlay p{font-size:11px;color:#cbd5e1;margin-bottom:10px}
+.btn-pay{background:#22c55e;color:#000;border:none;padding:10px 18px;border-radius:10px;font-weight:800;font-size:12px;cursor:pointer;width:100%;max-width:220px}<!DOCTYPE html>
 <!DOCTYPE html>
 <html lang="en">
 <head>
