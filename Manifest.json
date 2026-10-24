@@ -1,0 +1,16 @@
+{
+  "name": "Exact Tips Ghana",
+  "short_name": "ExactTips",
+  "description": "Daily Sure Football Predictions",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00C853",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/1165/1165187.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
