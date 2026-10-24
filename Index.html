@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exact Tips - Sure Football Predictions</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#00C853">
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{background:#0a0a0a;color:#fff}
+.header{background:#111;padding:15px;text-align:center;border-bottom:3px solid #00C853;position:sticky;top:0;z-index:99}
+.header h1{color:#00C853;font-size:24px}
+.header p{color:#aaa;font-size:12px;margin-top:4px}
+.badge{background:#00C853;color:#000;padding:3px 10px;border-radius:20px;font-size:11px;font-weight:bold;margin-left:8px}
+.tabs{display:flex;gap:10px;padding:15px;background:#111;overflow:auto}
+.tab{flex:1;padding:12px;border-radius:10px;text-align:center;font-weight:bold;cursor:pointer;border:1px solid #333;white-space:nowrap}
+.tab.active{background:#00C853;color:#000;border-color:#00C853}
+.card{background:#1a1a1a;margin:12px;border-radius:14px;padding:14px;border:1px solid #2a2a2a}
+.card-top{display:flex;justify-content:space-between;align-items:center;margin-bottom:10px}
+.league{font-size:11px;color:#aaa;background:#222;padding:4px 8px;border-radius:20px}
+.time{font-size:12px;color:#00C853;font-weight:bold}
+.match{display:flex;justify-content:space-between;align-items:center;margin:10px 0}
+.team{font-size:14px;font-weight:bold;width:40%;text-align:center}
+.vs{color:#555}
+.tip-box{background:#222;border-left:4px solid #00C853;padding:10px;border-radius:8px;display:flex;justify-content:space-between;align-items:center}
+.tip{font-weight:bold;color:#00C853}
+.odds{background:#00C853;color:#000;padding:4px 10px;border-radius:20px;font-weight:bold;font-size:13px}
+.result{font-size:11px;margin-top:8px;padding:5px 8px;border-radius:20px;display:inline-block}
+.won{background:#00C85322;color:#00C853;border:1px solid #00C853}
+.vip-lock{background:linear-gradient(135deg,#111,#1a1a1a);border:1px solid #FFD700}
+.vip-lock .tip-box{border-left-color:#FFD700}
+.lock-btn{width:100%;background:linear-gradient(90deg,#FFD700,#FFC400);color:#000;border:none;padding:14px;border-radius:10px;font-weight:bold;margin-top:10px;cursor:pointer;font-size:14px}
+.whatsapp{position:fixed;bottom:20px;right:15px;background:#25D366;color:#fff;padding:14px 20px;border-radius:50px;font-weight:bold;text-decoration:none;box-shadow:0 5px 20px rgba(0,0,0,0.5);z-index:999;display:flex;align-items:center;gap:8px}
+.footer{text-align:center;padding:30px 15px;color:#555;font-size:11px;padding-bottom:100px}
+.footer a{color:#777;text-decoration:none}
+</style>
+</head>
+<body>
+
+<div class="header">
+<h1>EXACT TIPS <span class="badge">GHANA #1</span></h1>
+<p>Daily Sure Tips | 98% Accuracy</p>
+</div>
+
+<div class="tabs">
+<div class="tab active" onclick="show('free')">🔥 FREE TIPS</div>
+<div class="tab" onclick="show('vip')">👑 VIP TIPS</div>
+<div class="tab" onclick="show('yesterday')">✅ YESTERDAY</div>
+</div>
+
+<div id="free">
+<div class="card">
+<div class="card-top"><span class="league">🏴󠁧󠁢󠁥󠁮󠁧󠁿 Premier League</span><span class="time">Today 19:00</span></div>
+<div class="match"><span class="team">Arsenal</span><span class="vs">vs</span><span class="team">Man City</span></div>
+<div class="tip-box"><span class="tip">Tip: Over 1.5 Goals</span><span class="odds">1.35</span></div>
+<span class="result won">✅ WON Yesterday</span>
+</div>
+
+<div class="card">
+<div class="card-top"><span class="league">🇪🇸 La Liga</span><span class="time">Today 20:30</span></div>
+<div class="match"><span class="team">Barcelona</span><span class="vs">vs</span><span class="team">Sevilla</span></div>
+<div class="tip-box"><span class="tip">Tip: Home Win</span><span class="odds">1.65</span></div>
+</div>
+
+<div class="card">
+<div class="card-top"><span class="league">🇬🇭 Ghana PL</span><span class="time">Today 15:00</span></div>
+<div class="match"><span class="team">Hearts of Oak</span><span class="vs">vs</span><span class="team">Kotoko</span></div>
+<div class="tip-box"><span class="tip">Tip: Double Chance 1X</span><span class="odds">1.28</span></div>
+</div>
+</div>
+
+<div id="vip" style="display:none">
+<div class="card vip-lock">
+<div class="card-top"><span class="league">👑 VIP TICKET - 15.20 ODDS</span><span class="time">Today</span></div>
+<p style="font-size:13px;color:#aaa;margin:10px 0">5 Matches - 100% Sure. Join WhatsApp to unlock.</p>
+<div class="tip-box"><span class="tip">🔒 Locked - VIP Only</span><span class="odds">15.20</span></div>
+<button class="lock-btn" onclick="joinVIP()">UNLOCK ON WHATSAPP - GH₵ 50 / Month</button>
+</div>
+
+<div class="card vip-lock">
+<div class="card-top"><span class="league">👑 CORRECT SCORE VIP</span><span class="time">Today</span></div>
+<div class="tip-box"><span class="tip">🔒 Correct Score: 2-1, 1-0</span><span class="odds">25.00</span></div>
+<button class="lock-btn" onclick="joinVIP()">GET SCORE ON WHATSAPP</button>
+</div>
+</div>
+
+<div id="yesterday" style="display:none">
+<div class="card">
+<div class="card-top"><span class="league">✅ Yesterday Won</span><span class="time">Won</span></div>
+<div class="match"><span class="team">Liverpool 2-0</span><span class="vs">Chelsea</span></div>
+<div class="tip-box"><span class="tip">Tip: Over 2.5 - WON</span><span class="odds">1.90</span></div>
+</div>
+</div>
+
+<a class="whatsapp" href="https://wa.me/233535424574?text=Hi%20Exact%20Tips,%20I%20want%20to%20join%20VIP" target="_blank">💬 WhatsApp VIP</a>
+
+<div class="footer">
+<p><a href="privacy.html">Privacy Policy</a> • <a href="#">Terms</a></p>
+<p style
